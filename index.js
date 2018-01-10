@@ -17,7 +17,7 @@ server.route([
     path: '/{key}/{value}',
     config: {
       handler: (request, reply) => {
-        console.log(request.payload)
+        dump(request.payload)
         return {
           [request.params.key]: request.params.value
         }
