@@ -4,10 +4,9 @@
   "version": "0.0.1",
   "author": "Goran Butorac",
   "license": "MIT",
-  "main": "src/index.js",
   "scripts": {
-    "start": "node src/index.js",
-    "dev": "NODE_ENV=development nodemon --inspect src/index.js"
+    "start": "node index.js",
+    "dev": "NODE_ENV=development nodemon --inspect index.js"
   },
   "dependencies": {
     "boom": "^7.1.1",
