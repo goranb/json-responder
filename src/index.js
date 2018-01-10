@@ -54,7 +54,6 @@ server.start(error => {
 /* colorize log output */
 
 const colors = [
-  chalk.red,
   chalk.green,
   chalk.yellow,
   chalk.blue,
