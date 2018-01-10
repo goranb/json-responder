@@ -64,6 +64,8 @@ const colors = [
 let color
 
 function dump (content) {
+  let now = new Date()
+  console.log(chalk.black(`\n${now.toString()}:`))
   color = colors[(colors.indexOf(color) + 1) % colors.length]
   console.log(color(JSON.stringify(content, null, 2)))
 }
