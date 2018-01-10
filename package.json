@@ -1,0 +1,21 @@
+{
+  "name": "json-responder",
+  "description": "Tester API",
+  "version": "0.0.1",
+  "author": "Goran Butorac",
+  "license": "MIT",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "NODE_ENV=development nodemon --inspect src/index.js"
+  },
+  "dependencies": {
+    "boom": "^7.1.1",
+    "chalk": "^2.3.0",
+    "dotenv": "^4.0.0",
+    "hapi": "^17.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.14.10"
+  }
+}
